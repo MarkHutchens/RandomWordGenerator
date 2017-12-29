@@ -54,3 +54,5 @@ Normalized confusion matrix: SVM
 # Credit
 
 Chunks of code are adapted from lecture notes, class taught by Robert Lewis of W&M. These in turn were largely from Sebastian Raschka's book Python Machine Learning. That stuff was written for the classic iris dataset, so this has way more vectors, but the principle's the same.
+
+The word list is from the open source “English Open Word List” (EOWL) http://dreamsteep.com/projects/the-english-open-word-list.html
