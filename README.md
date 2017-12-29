@@ -10,9 +10,13 @@ The fake words are random strings of characters. The lengths match up 1:1 with r
 Confusion matrix, without normalization for 2000 real and 2000 fake words, with 600 of each in the test set. The seed was "Linguistics" and only ngrams up to length 2 were used. (Allowing 3 seems to make the classifier worse, which may be due to overfitting on sequences of 3 that never actually come up again. Fewer false negatives occur.)
 
 [[557  44]
+
  [ 56 543]]
+ 
 Normalized confusion matrix: SVM
+
 [[ 0.93  0.07]
+
  [ 0.09  0.91]]
  
  Here are the real words it believed were fake
@@ -34,12 +38,19 @@ This one was with the seed 'egret' with a smaller data size and allowing larger 
 Confusion matrix, without normalization
 
 [[296  12]
+
  [ 61 231]]
+ 
 Normalized confusion matrix: SVM
 
 [[ 0.96  0.04]
+
  [ 0.21  0.79]]
  
  ['araneids', 'buckayro', 'doxy', 'evohe', 'faradaic', 'feverfews', 'loft', 'malts', 'phut', 'riva', 'thlipsis', 'wolfkin']
  
 ['atwele', 'axvorej', 'bsruicvi', 'cursqpuds', 'datgzg', 'emveb', 'errdh', 'fperoi', 'fytncul', 'gcubm', 'gnatq', 'gnvigjw', 'gzhif', 'hl', 'hodlssfd', 'ianixtmn', 'iirercwbh', 'ilnoc', 'jclaf', 'jkelckukrs', 'jlhonv', 'klk', 'lamedjd', 'leokng', 'llihetukeq', 'lppauoa', 'lpuptlok', 'mava', 'moceaq', 'nefrkl', 'ngwdoscemp', 'nrukuay', 'nvnis', 'oayho', 'osum', 'ovjxvin', 'panlktex', 'pkdkakiadg', 'ptburyhd', 'roxon', 'rtinjsu', 'rtulu', 'sduxauggc', 'simbhe', 'slnoogfnag', 'spye', 'srkh', 'sueelf', 'tainitjx', 'tutjs', 'tzfviubeav', 'ubehbb', 'ubobi', 'uiyekapt', 'vidiozoj', 'wwtxawil', 'xcugrjum', 'xerg', 'xgnoigg', 'ximgodely', 'xsclliuu']
+
+# Credit
+
+Chunks of code are adapted from lecture notes, class taught by Robert Lewis of W&M. These in turn were largely from Sebastian Raschka's book Python Machine Learning. That stuff was written for the classic iris dataset, so this has way more vectors, but the principle's the same.
