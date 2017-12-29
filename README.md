@@ -56,3 +56,7 @@ Normalized confusion matrix: SVM
 Chunks of code are adapted from lecture notes, class taught by Robert Lewis of W&M. These in turn were largely from Sebastian Raschka's book Python Machine Learning. That stuff was written for the classic iris dataset, so this has way more vectors, but the principle's the same.
 
 The word list is from the open source “English Open Word List” (EOWL) http://dreamsteep.com/projects/the-english-open-word-list.html
+
+UK Advanced Cryptics Dictionary Licensing Information:
+
+Copyright © J Ross Beresford 1993-1999. All Rights Reserved. The following restriction is placed on the use of this publication: if the UK Advanced Cryptics Dictionary is used in a software package or redistributed in any form, the copyright notice must be prominently displayed and the text of this document must be included verbatim.
