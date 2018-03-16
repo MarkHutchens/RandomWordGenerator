@@ -1,5 +1,5 @@
 # RandomWordGenerator
-Right now just distinguishes random characters from english words a bit better than 90% of the time.
+Right now just distinguishes random characters from English words a bit better than 90% of the time.
 
 ATM, the classifier looks specifically at character n-grams. And at that it's set to only look at sets of 2 at maximum. That means it cannot tell if sequences are at the starts or ends of words. It also can't tell if there are long sequences of consonants. It appears to have figured out, however, that real words tend to have some vowels in them.
 
